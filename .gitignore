@@ -1,0 +1,28 @@
+.DS_Store
+.Rproj.user
+.Rhistory
+.Rprofile
+*.o
+*.so
+/src-i386/
+/src-x86_64/
+shinyapps/
+README.html
+.*.Rnb.cached
+tools/yarn-error.log
+
+# TypeScript / yarn
+/node_modules/
+.cache
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+coverage/
+madge.svg
+
+
+# GHA remotes installation
+.github/r-depends.rds
